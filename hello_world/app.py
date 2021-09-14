@@ -30,5 +30,5 @@ def lambda_handler(event, context):
             {
                 "message": "Harness Deploy"
             }
-        ),
+        )
     }
