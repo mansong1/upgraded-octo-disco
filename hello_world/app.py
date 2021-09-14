@@ -25,9 +25,10 @@ def lambda_handler(event, context):
 
     return {
         "statusCode": 200,
+        'headers': {'Content-Type': 'a§pllication/json'},
         "body": json.dumps(
             {
-                "message": "hello world",
+                "message": "Harness Deploy",
             }
         ),
     }
